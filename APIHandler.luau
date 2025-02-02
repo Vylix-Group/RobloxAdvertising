@@ -1,6 +1,6 @@
 local HttpService = game:GetService("HttpService")
 local ServerStorage = game:GetService("ServerStorage")
-local Settings = require(game.ServerScriptService:WaitForChild("VYLIX AD | SETTINGS"))
+local Settings = require(script.parent:WaitForChild("Settings"))
 local experienceId = game.GameId
 
 -- Function to fetch the whitelist
