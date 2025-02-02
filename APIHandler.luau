@@ -1,5 +1,3 @@
-local module = {}
-
 local HttpService = game:GetService("HttpService")
 local ServerStorage = game:GetService("ServerStorage")
 local Settings = require(game.ServerScriptService:WaitForChild("VYLIX AD | SETTINGS"))
@@ -146,7 +144,6 @@ local function fetchAllAdverts()
 	fetchAdverts("https://api.vylix.net/advert/street", "FetchAdvert_Street")
 end
 
-function module.start()
 	fetchNews()
 	fetchWeather()
 	fetchAllAdverts()
@@ -157,6 +154,3 @@ function module.start()
 		fetchWeather()
 		fetchAllAdverts()
 	end
-end
-
-return module
