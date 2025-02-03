@@ -1,5 +1,5 @@
 local frame = script.Parent
-local speed, waitTime = 1.5, 5
+local speed, waitTime = 1, 15
 local newsFrame, weatherFrame = frame.News, frame.Weather
 local imageAssetIds, elements = {}, {}
 
